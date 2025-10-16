@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mediumish Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="homePage" class="page">
+        <header>
+          <span class="logo">Mediumish</span>
+          <nav>
+            <ul>
+              <li><a href="#" id="homeLink">Home</a></li>
+              <li><a href="#" id="aboutLink">About</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <div class="posts" id="postList">
+            
+          </div>
+        </main>
+        <footer>
+          <p>© <span id="year"></span> Mediumish Blog</p>
+        </footer>
+      </div>
+
+      <div id="aboutPage" class="page hidden">
+        <header>
+          <span class="logo">Mediumish</span>
+          <nav>
+            <ul>
+              <li><a href="#" id="homeLink_about">Home</a></li>
+              <li><a href="#" id="aboutLink_about">About</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <h1>About</h1>
+          <p>This minimalist blog celebrates clean, distraction-free design.</p>
+          <button class="backBtn">Back to home</button>
+        </main>
+        <footer>
+          <p>© <span id="year_about"></span> Mediumish Blog</p>
+        </footer>
+      </div>
+
+      <div id="articlePage" class="page hidden">
+        <header>
+          <span class="logo">Mediumish</span>
+          <nav>
+            <ul>
+              <li><a href="#" id="homeLink_article">Home</a></li>
+              <li><a href="#" id="aboutLink_article">About</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <div id="articleContent">
+            
+          </div>
+          <button class="backBtn">Back to home</button>
+        </main>
+        <footer>
+          <p>© <span id="year_article"></span> Mediumish Blog</p>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
